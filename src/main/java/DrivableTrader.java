@@ -22,13 +22,6 @@ public class DrivableTrader extends Trader<Drivable> {
         super(money);
     }
 
-
-
-    @Override
-    public void addToWishList(Drivable item) {
-        this.getWishlist().add(item);
-    }
-
     @Override
     public int getSellingPrice(Drivable item) {
         int super_price = super.getSellingPrice(item);
